@@ -4,7 +4,7 @@
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Eclipse Combat Calculator</title>
+<title>Second Dawn Combat Simulator</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/analyzer.css">
 <!--JQuery is a Javascript Library that reduces complex tasks into single-line functions-->
@@ -28,16 +28,16 @@
     <h1>
       <div class="icon"></div>
       <a style="display: none;" href="#" class="showdesc"><span class="underline">Expand</span><span>&nbsp;▿</span></a>
-      <div>Second Dawn Combat Calculator</div>
+      <div>Second Dawn Combat Simulator</div>
     </h1>
     <div class="description">
       <h2>Welcome</h2>
-      <p>In <em>Eclipse: Second Dawn for the Galaxy</em>, players wager victory
+      <p>In <em>Second Dawn for the Galaxy</em>, players wager victory
         or defeat at the roll of the dice.  This app exists to help them decide
         whether a particular combat is wise, or folly.</p>
       <p>In order to use this app, you simply add the ships involved
         in the fight to either side, increase or decrease their starting values
-        to match their current values, then press the Calculate button to get
+        to match their current values, then press the Simulate button to get
         your odds of victory.</p>
       <h2>Legend</h2>
       <p></p>
@@ -55,6 +55,12 @@
                 <div class="icon"></div>
               </div></td>
             <td class="desc">Total number of orange dice the ship rolls.  Missiles don't count.</td>
+          </tr>
+          <tr>
+            <td class="icon"><div class="blue">
+              <div class="icon"></div>
+            </div></td>
+            <td class="desc">Total number of blue dice the ship rolls.</td>
           </tr>
           <tr>
             <td class="icon"><div class="red">
@@ -154,7 +160,7 @@
     <ul class="ships">
     </ul>
   </div>
-  <div class="simulate"><a href="#" class="simulate">Calculate</a></div>
+  <div class="simulate"><a href="#" class="simulate">Simulate</a></div>
   <div id="shipsA" class="ships">
     <h2 class="attacker">
       <div class="icon"></div>
